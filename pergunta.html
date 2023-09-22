@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pergunta</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="question">
+        <p>Hoje tem foto dos peitos no ZapZap?</p>
+        <button id="yes-button" onclick="showMessage()">Sim</button>
+        <button id="no-button" onclick="hideNoButton()">Não</button>
+    </div>
+
+    <div id="error-message" style="display: none;">Por favor, experimente clicar em "Sim".</div>
+    <div id="success-message" style="display: none;">Obrigado, esperando no ZapZap!</div>
+
+    <!-- Esta é a tag <img> para a imagem, inicialmente oculta com style="display: none;" e com uma classe "small-image" -->
+    <img id="zap-image" class="small-image" src="https://i.imgur.com/KKC93d6.jpg" alt="Imagem" style="display: none;">
+
+    <script src="pergunta.js"></script>
+</body>
+</html>
