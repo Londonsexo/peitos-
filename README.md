@@ -1,3 +1,7 @@
 # peitos-
 
-tentativa de ganhar foto dos peitos da minha ex
+trying to get a photo of my ex-girlfriend's boobs
+
+
+user = soso
+password = amorzinho
